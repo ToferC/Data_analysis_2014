@@ -5,6 +5,7 @@ import nltk, re, pprint
 import csv
 from nltk import word_tokenize
 from nltk.corpus import stopwords
+import time
 
 
 # Load target file and supporting documents
@@ -18,10 +19,10 @@ for f in files:
 ftarget = 'User Study 2013'  #input("\nPlease enter file name: ")
 
 recommendations = ['should', 'make', 'improve', 'recommend', 'could', 'change', 'need',
-                   'adjust', 'suggest', 'propose', 'advise', 'urge', 'want', 'must', 'desire']
+                   'adjust', 'suggest', 'propose', 'advise', 'urge', 'want', 'must', 'desire', 'fix']
 
 components = ['interface', 'search', 'groups', 'notifications', 'messaging', 'files', 'video', 'performance', 'post',
-              'registration', 'display']
+              'registration', 'display', 'editor', 'upload', 'download']
 
 tools = ['gcpedia', 'gcconnex', 'gcforums', 'blueprint', 'tool']
 
@@ -45,15 +46,13 @@ tokens = word_tokenize(raw)
 text = nltk.Text(tokens)
 sens = nltk.sent_tokenize(raw)
 
-#clean_text = input("Would you like to strip the text of stopwords \n(high frequency words like 'the', 'to' and 'also'"
-                  # "that have little lexical content)? (y/n)")
-
 
 def text_analysis(text):
 
     options = ['Find collocations', 'Find Concordance', 'Run a frequency distribution', 'Display Hapaxes',
                'Display frequently occurring long words', 'Run a sentiment analysis',
-               'Clean text and run frequency distribution', 'Recommendations & Concordance']
+               'Clean text and run frequency distribution', 'Recommendations & Concordance',
+               'Search for 3 word phrases']
 
     # Select options
 
@@ -93,8 +92,11 @@ def text_analysis(text):
         elif option_select == str(8):
             recommend_concordance(text)
 
+        elif option_select == str(9):
+            pos_trigrams(sens)
+
         elif option_select in ['q', 'Q', 'Quit', 'quit']:
-            finished = True
+            break
 
         else:
             print("Invalid selection.  Please try again")
@@ -119,7 +121,7 @@ def concordance(text):
     #csv_write(target, text.concordance(target, width=140))
     print('\nSentences:')
     for sentence in sens:
-        if target in sentence:
+        if target.lower() in sentence.lower():
             print(sentence)
 
 def frequency_distribution(text):
@@ -157,25 +159,57 @@ def sentiment_analysis(text, positive, negative):
 
 def clean_up_text(text):
     print("\nCleaning text.\n")
-    fdist1 = nltk.FreqDist(text)
+
     x = [w for w in set(text) if w.lower() not in stopwords.words('english') and
-            w.lower() not in stopwords.words('french') and fdist1[w] > 7]
+            w.lower() not in stopwords.words('french')]
     print(x)
-    fdist1.plot(50, cumulative=True)
+
+    fdist2 = nltk.FreqDist(x)
+    fdist2.plot(50, cumulative=True)
 
 
 def recommend_concordance(text):
     print("Printing concordance by recommendations")
-    for t in tools:
-        for c in components:
-            for w in recommendations:
-                print(t.upper(), c.upper(), w.upper())
-                for sentence in sens:
-                    if all(x in sentence for x in [t, c, w]):
-                        print(sentence)
-                print('')
+
+    save_file = open('Recommendation.txt', 'w')
+    save_file.write("Printing concordance by recommendations {}".format(time.strftime("%d/%m/%Y")))
+    save_file.write('\n')
+    #for t in tools:
+    for c in components:
+        for w in recommendations:
+            print(c.upper(), w.upper())
+
+            save_file.write(c.upper() + " " + w.upper())
+            save_file.write("\n")
+
+            for sentence in sens:
+                if all(x in sentence for x in [c, w]):
+                    print(sentence)
+
+                    save_file.write(sentence)
+                    save_file.write("\n")
+
+            print('')
+            save_file.write("\n")
+
+    save_file.close()
         #print('{}\n'.format(w))
         #text.concordance(w, width=120, lines=100)
+
+
+
+def process(sentence):
+    for (w1,t1), (w2,t2), (w3,t3) in nltk.trigrams(sentence):
+        if t1.startswith('V') and t2 == 'TO' and t3.startswith('V'):
+            print(w1, w2, w3)
+
+def pos_trigrams(text):
+    # tags sentences with POS and runs three word phrases
+
+    for sentence in text:
+        trans = word_tokenize(sentence)
+        final = nltk.pos_tag(trans)
+        process(final)
 
 def csv_write(file_name, text):
     writer = csv.writer(open(file_name + '.csv', 'wb'))
