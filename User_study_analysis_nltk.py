@@ -38,6 +38,7 @@ with open(path + ftarget, 'rU') as f:
 
 tokens = word_tokenize(raw)
 text = nltk.Text(tokens)
+sens = nltk.sent_tokenize(raw)
 
 #clean_text = input("Would you like to strip the text of stopwords \n(high frequency words like 'the', 'to' and 'also'"
                   # "that have little lexical content)? (y/n)")
@@ -111,6 +112,10 @@ def concordance(text):
     print('\nConcordance: {}'.format(target))
     text.concordance(target, width=140)
     #csv_write(target, text.concordance(target, width=140))
+    print('\nSentences:')
+    for sentence in sens:
+        if target in sentence:
+            print(sentence)
 
 def frequency_distribution(text):
 
@@ -157,8 +162,13 @@ def clean_up_text(text):
 def recommend_concordance(text):
     print("Printing concordance by recommendations")
     for w in recommendations:
-        print('{}\n'.format(w))
-        text.concordance(w, width=120, lines=100)
+        print(w.upper())
+        for sentence in sens:
+            if w in sentence:
+                print(sentence)
+        print('')
+        #print('{}\n'.format(w))
+        #text.concordance(w, width=120, lines=100)
 
 def csv_write(file_name, text):
     writer = csv.writer(open(file_name + '.csv', 'wb'))
