@@ -15,10 +15,15 @@ files = [f for f in os.listdir(path) if os.path.isfile(os.path.join(path, f))]
 for f in files:
     print(f)
 
-ftarget = input("\nPlease enter file name: ")
+ftarget = 'User Study 2013'  #input("\nPlease enter file name: ")
 
 recommendations = ['should', 'make', 'improve', 'recommend', 'could', 'change', 'need',
                    'adjust', 'suggest', 'propose', 'advise', 'urge', 'want', 'must', 'desire']
+
+components = ['interface', 'search', 'groups', 'notifications', 'messaging', 'files', 'video', 'performance', 'post',
+              'registration', 'display']
+
+tools = ['gcpedia', 'gcconnex', 'gcforums', 'blueprint', 'tool']
 
 
 with open(path + 'positive.txt', 'r') as f:
@@ -161,12 +166,14 @@ def clean_up_text(text):
 
 def recommend_concordance(text):
     print("Printing concordance by recommendations")
-    for w in recommendations:
-        print(w.upper())
-        for sentence in sens:
-            if w in sentence:
-                print(sentence)
-        print('')
+    for t in tools:
+        for c in components:
+            for w in recommendations:
+                print(t.upper(), c.upper(), w.upper())
+                for sentence in sens:
+                    if all(x in sentence for x in [t, c, w]):
+                        print(sentence)
+                print('')
         #print('{}\n'.format(w))
         #text.concordance(w, width=120, lines=100)
 
