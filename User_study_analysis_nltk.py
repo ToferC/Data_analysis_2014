@@ -16,13 +16,20 @@ files = [f for f in os.listdir(path) if os.path.isfile(os.path.join(path, f))]
 for f in files:
     print(f)
 
-ftarget = 'User Study 2013'  #input("\nPlease enter file name: ")
+ftarget = input("\nPlease enter file name: ")
 
 recommendations = ['should', 'make', 'improve', 'recommend', 'could', 'change', 'need',
-                   'adjust', 'suggest', 'propose', 'advise', 'urge', 'want', 'must', 'desire', 'fix']
+                   'adjust', 'suggest', 'propose', 'advise', 'urge', 'want', 'must', 'desire',
+                   'fix', 'problem', 'issue']
 
 components = ['interface', 'search', 'groups', 'notifications', 'messaging', 'files', 'video', 'performance', 'post',
-              'registration', 'display', 'editor', 'upload', 'download']
+              'registration', 'display', 'editor', 'upload', 'download', 'email']
+
+not_using = ["figure", "understand", "how to", "know", "using", ""]
+
+whats_working = ['found', 'tried', 'contacted', 'met', 'thank', 'meet', 'contact', 'time', 'support', 'manager',
+                 'executive', 'senior management', 'collaborate', 'learn', 'find', 'relationship', 'blueprint',
+                 'bp2020', 'destination']
 
 tools = ['gcpedia', 'gcconnex', 'gcforums', 'blueprint', 'tool']
 
@@ -37,8 +44,11 @@ with open(path + 'negative.txt', 'r') as f:
     neg = neg.strip()
     negative_words = neg.split('\n')
 
-with open(path + ftarget, 'rU') as f:
-    raw = f.read()
+with open(path + ftarget, encoding='latin-1') as f:
+    try:
+        raw = f.read()
+    except UnicodeDecodeError:
+        raise
 
 # Process text
 
@@ -52,7 +62,7 @@ def text_analysis(text):
     options = ['Find collocations', 'Find Concordance', 'Run a frequency distribution', 'Display Hapaxes',
                'Display frequently occurring long words', 'Run a sentiment analysis',
                'Clean text and run frequency distribution', 'Recommendations & Concordance',
-               'Search for 3 word phrases']
+               'Search for 3 word phrases', 'Not using concordance', 'Positive concordance']
 
     # Select options
 
@@ -94,6 +104,12 @@ def text_analysis(text):
 
         elif option_select == str(9):
             pos_trigrams(sens)
+
+        elif option_select == str(10):
+            no_use_concordance(sens)
+
+        elif option_select == str(11):
+            positive_concordance(sens)
 
         elif option_select in ['q', 'Q', 'Quit', 'quit']:
             break
@@ -171,7 +187,7 @@ def clean_up_text(text):
 def recommend_concordance(text):
     print("Printing concordance by recommendations")
 
-    save_file = open('Recommendation.txt', 'w')
+    save_file = open(path + '{} Recommendation.txt'.format(ftarget), 'w')
     save_file.write("Printing concordance by recommendations {}".format(time.strftime("%d/%m/%Y")))
     save_file.write('\n')
     #for t in tools:
@@ -196,6 +212,57 @@ def recommend_concordance(text):
         #print('{}\n'.format(w))
         #text.concordance(w, width=120, lines=100)
 
+
+def no_use_concordance(text):
+    print("Printing concordance by Not using")
+
+    save_file = open(path + '{} Not_using.txt'.format(ftarget), 'w')
+    save_file.write("Printing concordance by Not using {}".format(time.strftime("%d/%m/%Y")))
+    save_file.write('\n')
+    #for t in tools:
+    for w in not_using:
+        print(w.upper())
+
+        save_file.write(w.upper())
+        save_file.write("\n")
+
+        for sentence in sens:
+            if w in sentence:
+                print(sentence.translate(['***', '']))
+
+                save_file.write(sentence)
+                save_file.write("\n")
+
+        print('')
+        save_file.write("\n")
+
+    save_file.close()
+
+
+def positive_concordance(text):
+    print("Printing concordance by positive results")
+
+    save_file = open(path + '{} pos_results.txt'.format(ftarget), 'w')
+    save_file.write("Printing concordance by Positive Results {}".format(time.strftime("%d/%m/%Y")))
+    save_file.write('\n')
+
+    for w in whats_working:
+        print(w.upper())
+
+        save_file.write(w.upper())
+        save_file.write("\n")
+
+        for sentence in sens:
+            if w in sentence:
+                print(sentence)
+
+                save_file.write(sentence)
+                save_file.write("\n")
+
+        print('')
+        save_file.write("\n")
+
+    save_file.close()
 
 
 def process(sentence):

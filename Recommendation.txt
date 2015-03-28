@@ -1,0 +1,527 @@
+Printing concordance by recommendations 23/11/2014
+INTERFACE SHOULD
+
+INTERFACE MAKE
+If I had one interface from which I could access everything that would make work easier, more efficient and productive.
+
+INTERFACE IMPROVE
+
+INTERFACE RECOMMEND
+
+INTERFACE COULD
+If I had one interface from which I could access everything that would make work easier, more efficient and productive.
+Specifically, no-cost or low-cost cloud data storage, persistent and on-demand virtual machines for ad hoc processing jobs, machine image snapshots, storage and sharing, and a web-based administration interface could be very useful to many public servants, not just developers.
+
+INTERFACE CHANGE
+
+INTERFACE NEED
+As a new employee, I was given links to employee sites, department sites, social media sites, all with the different interfaces and content organization, until I reached the point where if I needed a question answered, I would simply ask the person in the cubicle next to mine.
+
+INTERFACE ADJUST
+
+INTERFACE SUGGEST
+
+INTERFACE PROPOSE
+
+INTERFACE ADVISE
+
+INTERFACE URGE
+
+INTERFACE WANT
+
+INTERFACE MUST
+
+INTERFACE DESIRE
+
+INTERFACE FIX
+
+SEARCH SHOULD
+- Being able to sort lists of documents or group discussions in groups would be nice (for example, alphabetically rather than just by most recent)    - On lists of documents or bookmarks in groups, it would be nice if the summaries of information in the list included date posted    - When viewing personal colleagues, we should be able to sort the colleagues by name, in order to find the person we want more easily     - The fact that the search function is temporarily disabled in order to ensure system performance is ironic     - The default for notification e-mails regarding group activity should be NO E-MAILS, or should distinguish between discussions we are taking part in as compared to those which are simply going on in a group we joined.
+- It should be possible to "thumbs up" discussion posts    - When people reply within a discussion post, they should be able to reply to one of the comments and have the two posts connected, rather than having a hugely disjointed conversation which is difficult to follow and discourages others from getting involved, because they have to awkwardly search through pages of unconnected information    - When moving between the GC2.0 tools, it would be great if you didn't have to log in again       Thanks for the opportunity to contribute some information on user experience, I sincerely hope that action will be taken to address some of the above-mentioned challenges.
+Also, to make information search meaningful, it should be simple for a public servant to find what they are looking for.
+Ex: I should be able to use the search engine on the TBS website to find information found on the TBS website.
+Searches are not always working great - the new tools should really refine the searching capabilities.
+
+SEARCH MAKE
+Searching from google rather than the site's search engine makes it easier to find what I'm looking for, though there are a number of dead links that haven't been re-routed or cleaned up yet.
+Also, to make information search meaningful, it should be simple for a public servant to find what they are looking for.
+
+SEARCH IMPROVE
+- Vastly improve the search features.
+Across all government websites and social media tools, I would like to see the "search" function improved.
+- As I mentioned in an earlier comment, the Groups search function desperately needs to be improved.
+
+SEARCH RECOMMEND
+
+SEARCH COULD
+Do they know how to search through social media information for things they could use for their work?
+I would hope that all the great tools in the three platforms could be combined into one or at least combine GCconnex and GCforums so there are less websites to search for information.
+Personally i found the amount of time section i spent on different work items to be deceptive.....if you plan to use this as a time saving approach    Would have prefered to rate use on a likert scale - yes and no forced me to chose a position    I think the inter-departmental collaboration side could have been more significant as could have the link to functional communities in the survey......big gaps
+Please add a search function to GCConnex.
+It took me more than 6 hours over a number of days (because the search was so laughable I couldn't commit myself to it all at once) to find the right form to fill out because I kept being bumped around to different sites through various "click here" links.
+
+SEARCH CHANGE
+
+SEARCH NEED
+I do find it helpfull to research what is happening, but I think it needs to be populated a bit more for it to be relevant for my work.
+- As I mentioned in an earlier comment, the Groups search function desperately needs to be improved.
+I find it quite difficult to call up information that I need on the TBS website with its search function.
+I have found google as most effective tool to search information that I need to do my job.
+If we are expected to network to eliminate travel costs (amongst other reasons) we are going to need superb collaboration tools that will leave us fully satisfied - or even excited - about having spent the time researching through GC2.0.
+There needs to be super users or promoters or whatever you'd call them that know the tools, that have time to search, and that are out here letting us know and helping us get excited about the tools.
+
+SEARCH ADJUST
+
+SEARCH SUGGEST
+
+SEARCH PROPOSE
+
+SEARCH ADVISE
+
+SEARCH URGE
+
+SEARCH WANT
+- Being able to sort lists of documents or group discussions in groups would be nice (for example, alphabetically rather than just by most recent)    - On lists of documents or bookmarks in groups, it would be nice if the summaries of information in the list included date posted    - When viewing personal colleagues, we should be able to sort the colleagues by name, in order to find the person we want more easily     - The fact that the search function is temporarily disabled in order to ensure system performance is ironic     - The default for notification e-mails regarding group activity should be NO E-MAILS, or should distinguish between discussions we are taking part in as compared to those which are simply going on in a group we joined.
+
+SEARCH MUST
+
+SEARCH DESIRE
+
+SEARCH FIX
+
+GROUPS SHOULD
+- Being able to sort lists of documents or group discussions in groups would be nice (for example, alphabetically rather than just by most recent)    - On lists of documents or bookmarks in groups, it would be nice if the summaries of information in the list included date posted    - When viewing personal colleagues, we should be able to sort the colleagues by name, in order to find the person we want more easily     - The fact that the search function is temporarily disabled in order to ensure system performance is ironic     - The default for notification e-mails regarding group activity should be NO E-MAILS, or should distinguish between discussions we are taking part in as compared to those which are simply going on in a group we joined.
+
+GROUPS MAKE
+Information obtained through these channels is superficial, and unreliable and "diluted" - losing focus and accuracy and reliability - and  instead of making it easier to collaborate - the information overload of useless information from different groups makes it more difficult to get quality information.
+People make thier connections through shared projects, participation in working groups etc both of which are supported by gcpedia and gcforums.
+
+GROUPS IMPROVE
+
+GROUPS RECOMMEND
+
+GROUPS COULD
+For one thing, some of this informaitn could be ATIPable (apart from being wrong), and for another, as other groups/departments use GCpedia, taking a print of internal procedures and viewing them for their own use then perhaps their relatives use, it becomes rather an exercise in futility in treating all clients fairly.
+For GCPedia it would be nice if we could create private groups to share the wikipedia with rather than making it open to the whole government.
+A GC Collaborative Intranet based on something like (a properly configured) GCDocs, or even better, something like OpenText Tempo, or ActiveCollab could provide all GC staff with the functionality of the current GC Tools - Document sharing, groups, wiki pages, forums.
+Collaborate with NMC and departmental mgrs networks to offer sessions on use of the tools and discussion groups to get ideas on how these are currently being used and other ways they could be used.
+
+GROUPS CHANGE
+
+GROUPS NEED
+We need tools which can be shared with outside groups; we need less restrictions on our interactions.
+
+GROUPS ADJUST
+
+GROUPS SUGGEST
+
+GROUPS PROPOSE
+
+GROUPS ADVISE
+
+GROUPS URGE
+
+GROUPS WANT
+- Being able to sort lists of documents or group discussions in groups would be nice (for example, alphabetically rather than just by most recent)    - On lists of documents or bookmarks in groups, it would be nice if the summaries of information in the list included date posted    - When viewing personal colleagues, we should be able to sort the colleagues by name, in order to find the person we want more easily     - The fact that the search function is temporarily disabled in order to ensure system performance is ironic     - The default for notification e-mails regarding group activity should be NO E-MAILS, or should distinguish between discussions we are taking part in as compared to those which are simply going on in a group we joined.
+
+GROUPS MUST
+
+GROUPS DESIRE
+
+GROUPS FIX
+
+NOTIFICATIONS SHOULD
+
+NOTIFICATIONS MAKE
+
+NOTIFICATIONS IMPROVE
+
+NOTIFICATIONS RECOMMEND
+
+NOTIFICATIONS COULD
+
+NOTIFICATIONS CHANGE
+
+NOTIFICATIONS NEED
+
+NOTIFICATIONS ADJUST
+
+NOTIFICATIONS SUGGEST
+
+NOTIFICATIONS PROPOSE
+
+NOTIFICATIONS ADVISE
+
+NOTIFICATIONS URGE
+
+NOTIFICATIONS WANT
+
+NOTIFICATIONS MUST
+
+NOTIFICATIONS DESIRE
+
+NOTIFICATIONS FIX
+
+MESSAGING SHOULD
+
+MESSAGING MAKE
+
+MESSAGING IMPROVE
+
+MESSAGING RECOMMEND
+
+MESSAGING COULD
+It would be great if we had an instant messaging tool on our desktops so I could easily communicate with staff.
+
+MESSAGING CHANGE
+
+MESSAGING NEED
+
+MESSAGING ADJUST
+
+MESSAGING SUGGEST
+
+MESSAGING PROPOSE
+
+MESSAGING ADVISE
+
+MESSAGING URGE
+
+MESSAGING WANT
+
+MESSAGING MUST
+
+MESSAGING DESIRE
+
+MESSAGING FIX
+
+FILES SHOULD
+Our ministers and deputy-ministers should be keeping profiles in GCconnex, constantly inviting others to follow them and posting status updates, posting articles in the GCpedia and GCforums, etc.
+
+FILES MAKE
+
+FILES IMPROVE
+
+FILES RECOMMEND
+
+FILES COULD
+Example 2:   I am public service worker who is involved in a controversial project, i could be harassed on my personal online space on my private social media profiles.
+
+FILES CHANGE
+
+FILES NEED
+We have a real need to share large files between departments and there is no practical mechanism.
+There is a disconnect between the actual project files/documents and the discussions sometimes; there needs to be more integration between the social aspect of projects and the storage of actual project documentation.
+
+FILES ADJUST
+
+FILES SUGGEST
+
+FILES PROPOSE
+
+FILES ADVISE
+
+FILES URGE
+
+FILES WANT
+
+FILES MUST
+
+FILES DESIRE
+
+FILES FIX
+
+VIDEO SHOULD
+
+VIDEO MAKE
+
+VIDEO IMPROVE
+Our network for handling web activity such as streaming and video sharing needs to be improved.
+
+VIDEO RECOMMEND
+
+VIDEO COULD
+
+VIDEO CHANGE
+
+VIDEO NEED
+Our network for handling web activity such as streaming and video sharing needs to be improved.
+We need more use of teleconferences and videoconferences instead of doing so much travel.
+
+VIDEO ADJUST
+
+VIDEO SUGGEST
+
+VIDEO PROPOSE
+
+VIDEO ADVISE
+
+VIDEO URGE
+
+VIDEO WANT
+
+VIDEO MUST
+
+VIDEO DESIRE
+
+VIDEO FIX
+
+PERFORMANCE SHOULD
+- Being able to sort lists of documents or group discussions in groups would be nice (for example, alphabetically rather than just by most recent)    - On lists of documents or bookmarks in groups, it would be nice if the summaries of information in the list included date posted    - When viewing personal colleagues, we should be able to sort the colleagues by name, in order to find the person we want more easily     - The fact that the search function is temporarily disabled in order to ensure system performance is ironic     - The default for notification e-mails regarding group activity should be NO E-MAILS, or should distinguish between discussions we are taking part in as compared to those which are simply going on in a group we joined.
+
+PERFORMANCE MAKE
+
+PERFORMANCE IMPROVE
+
+PERFORMANCE RECOMMEND
+
+PERFORMANCE COULD
+
+PERFORMANCE CHANGE
+
+PERFORMANCE NEED
+
+PERFORMANCE ADJUST
+
+PERFORMANCE SUGGEST
+
+PERFORMANCE PROPOSE
+
+PERFORMANCE ADVISE
+
+PERFORMANCE URGE
+
+PERFORMANCE WANT
+- Being able to sort lists of documents or group discussions in groups would be nice (for example, alphabetically rather than just by most recent)    - On lists of documents or bookmarks in groups, it would be nice if the summaries of information in the list included date posted    - When viewing personal colleagues, we should be able to sort the colleagues by name, in order to find the person we want more easily     - The fact that the search function is temporarily disabled in order to ensure system performance is ironic     - The default for notification e-mails regarding group activity should be NO E-MAILS, or should distinguish between discussions we are taking part in as compared to those which are simply going on in a group we joined.
+Might want to start small by including in all managers performance accords to set up at least one group in GCconnex and start using it and seeing the benefits of it.
+
+PERFORMANCE MUST
+
+PERFORMANCE DESIRE
+
+PERFORMANCE FIX
+
+POST SHOULD
+I understand the concept of a wiki is for everyone to post and contribute, but this should not apply to internal national procedures.
+- Being able to sort lists of documents or group discussions in groups would be nice (for example, alphabetically rather than just by most recent)    - On lists of documents or bookmarks in groups, it would be nice if the summaries of information in the list included date posted    - When viewing personal colleagues, we should be able to sort the colleagues by name, in order to find the person we want more easily     - The fact that the search function is temporarily disabled in order to ensure system performance is ironic     - The default for notification e-mails regarding group activity should be NO E-MAILS, or should distinguish between discussions we are taking part in as compared to those which are simply going on in a group we joined.
+- It should be possible to "thumbs up" discussion posts    - When people reply within a discussion post, they should be able to reply to one of the comments and have the two posts connected, rather than having a hugely disjointed conversation which is difficult to follow and discourages others from getting involved, because they have to awkwardly search through pages of unconnected information    - When moving between the GC2.0 tools, it would be great if you didn't have to log in again       Thanks for the opportunity to contribute some information on user experience, I sincerely hope that action will be taken to address some of the above-mentioned challenges.
+Our ministers and deputy-ministers should be keeping profiles in GCconnex, constantly inviting others to follow them and posting status updates, posting articles in the GCpedia and GCforums, etc.
+Twitter) if employees will be spending their time reading the many slew of posts when they in fact should be "doing their job".
+We should NEVER post the same information more than once, we should only direct people back to the original source, which would mean we maintain fewer pages to begin with, and we have to update only one when something changes.
+There is also a significant absence of guidance or instruction on the appropriate use of these tools - how to identify information that should not be posted or listed, the risk of the information being compromised, the threat of collection by entities whose interests are contrary to national or organizational interests etc.
+This user study should be posted in departmental newsletters.
+
+POST MAKE
+A culture change where "keeping up with the tools" is a part of an EX requirement is the only way to make this happen... other than by a generational delay until those born post-1975 are the EX cadre.
+Our department/branch makes only minimal use of existing websites, posting a minimum of new content and client information, and we have almost no use of new 2.0 tools.
+GCPedia - due to translation requirements, posts are slow to make it up, and even slower to be updated.
+
+POST IMPROVE
+
+POST RECOMMEND
+
+POST COULD
+As for looking up resources/references, you can never be sure you have a final/official document, it could be one that is only in the proposal stage and the plans may have changed since it was posted.
+For example, ATIP practitioners meetings have presentations, agendas, etc., that could easily be posted on GCForums (in fact, have been posted in the past on occasion).
+The hour it takes to post a document on a wiki could result in a day or two worth’s of work for someone who can just take an existing document and adjust it for his needs than completely rewriting it.
+As most of our work is confidential & if the proper security features are not in place hackers could access our collaborative information and/or employees could be having a bad day and could end up posting something that could be detrimental to our public image or worse.
+
+POST CHANGE
+-What needs to change for me to be able to post drafts of policy options for feedback in the larger, internal GoC community?
+As for looking up resources/references, you can never be sure you have a final/official document, it could be one that is only in the proposal stage and the plans may have changed since it was posted.
+A culture change where "keeping up with the tools" is a part of an EX requirement is the only way to make this happen... other than by a generational delay until those born post-1975 are the EX cadre.
+We should NEVER post the same information more than once, we should only direct people back to the original source, which would mean we maintain fewer pages to begin with, and we have to update only one when something changes.
+
+POST NEED
+-What needs to change for me to be able to post drafts of policy options for feedback in the larger, internal GoC community?
+I'm a subject matter expert so I need to post tools and resources on our shared drive (CDS) so it's available 24/7 for my colleagues, not on some public (to govt) webpage.
+I find the forums tool the most frustrating because it is difficult to look for things I need, but I understand that SMEs use those to post questions and responses to each others, so it may be useful as a tool for certain user niche.
+Wikis have been useful in work life to post information that many users need to access.
+I can use my email any time but to post a comment on GCForums, I need to login, etc.)
+The risks of posting on GCpedia needs to be better understood as comparable to emailing a document to an internal colleagues.
+The hour it takes to post a document on a wiki could result in a day or two worth’s of work for someone who can just take an existing document and adjust it for his needs than completely rewriting it.
+
+POST ADJUST
+The hour it takes to post a document on a wiki could result in a day or two worth’s of work for someone who can just take an existing document and adjust it for his needs than completely rewriting it.
+
+POST SUGGEST
+
+POST PROPOSE
+
+POST ADVISE
+
+POST URGE
+
+POST WANT
+- Being able to sort lists of documents or group discussions in groups would be nice (for example, alphabetically rather than just by most recent)    - On lists of documents or bookmarks in groups, it would be nice if the summaries of information in the list included date posted    - When viewing personal colleagues, we should be able to sort the colleagues by name, in order to find the person we want more easily     - The fact that the search function is temporarily disabled in order to ensure system performance is ironic     - The default for notification e-mails regarding group activity should be NO E-MAILS, or should distinguish between discussions we are taking part in as compared to those which are simply going on in a group we joined.
+I'm not averse to transitioning my analogue professional networks online or using document sharing tools, but I don't want to have to update people in person and online, I don't want to have to post things online and send an email because people aren't on the network, my colleagues and I don't have time.
+Taking into consideration all the slip ups that have taken place via Twitter postings that politicians and other public figures why would we even want to take the public service into that direction?
+
+POST MUST
+
+POST DESIRE
+
+POST FIX
+
+REGISTRATION SHOULD
+
+REGISTRATION MAKE
+
+REGISTRATION IMPROVE
+
+REGISTRATION RECOMMEND
+
+REGISTRATION COULD
+
+REGISTRATION CHANGE
+
+REGISTRATION NEED
+
+REGISTRATION ADJUST
+
+REGISTRATION SUGGEST
+
+REGISTRATION PROPOSE
+
+REGISTRATION ADVISE
+
+REGISTRATION URGE
+
+REGISTRATION WANT
+
+REGISTRATION MUST
+
+REGISTRATION DESIRE
+
+REGISTRATION FIX
+
+DISPLAY SHOULD
+
+DISPLAY MAKE
+
+DISPLAY IMPROVE
+
+DISPLAY RECOMMEND
+
+DISPLAY COULD
+
+DISPLAY CHANGE
+
+DISPLAY NEED
+
+DISPLAY ADJUST
+
+DISPLAY SUGGEST
+
+DISPLAY PROPOSE
+
+DISPLAY ADVISE
+
+DISPLAY URGE
+
+DISPLAY WANT
+
+DISPLAY MUST
+
+DISPLAY DESIRE
+
+DISPLAY FIX
+
+EDITOR SHOULD
+
+EDITOR MAKE
+
+EDITOR IMPROVE
+
+EDITOR RECOMMEND
+
+EDITOR COULD
+
+EDITOR CHANGE
+
+EDITOR NEED
+
+EDITOR ADJUST
+
+EDITOR SUGGEST
+
+EDITOR PROPOSE
+
+EDITOR ADVISE
+
+EDITOR URGE
+
+EDITOR WANT
+
+EDITOR MUST
+
+EDITOR DESIRE
+
+EDITOR FIX
+
+UPLOAD SHOULD
+
+UPLOAD MAKE
+
+UPLOAD IMPROVE
+
+UPLOAD RECOMMEND
+
+UPLOAD COULD
+GCPedia could be a tremendous resource if public servants are taught that uploading content is part of their daily responsibility.
+
+UPLOAD CHANGE
+
+UPLOAD NEED
+
+UPLOAD ADJUST
+
+UPLOAD SUGGEST
+
+UPLOAD PROPOSE
+
+UPLOAD ADVISE
+
+UPLOAD URGE
+
+UPLOAD WANT
+
+UPLOAD MUST
+
+UPLOAD DESIRE
+
+UPLOAD FIX
+
+DOWNLOAD SHOULD
+
+DOWNLOAD MAKE
+How are we supposed to work in an agile and innovative manner when it takes days and tons of requests to simply open a firewall or allow us to download a pertinent plug-in to make things work???
+
+DOWNLOAD IMPROVE
+
+DOWNLOAD RECOMMEND
+
+DOWNLOAD COULD
+
+DOWNLOAD CHANGE
+
+DOWNLOAD NEED
+
+DOWNLOAD ADJUST
+
+DOWNLOAD SUGGEST
+
+DOWNLOAD PROPOSE
+
+DOWNLOAD ADVISE
+
+DOWNLOAD URGE
+
+DOWNLOAD WANT
+
+DOWNLOAD MUST
+
+DOWNLOAD DESIRE
+
+DOWNLOAD FIX
+
