@@ -9,6 +9,7 @@ http://nltk.org/book
 Requirements
 ==================
 NLTK - see install guide here: http://www.nltk.org/install.html
+Positive & Negative word lists from: https://github.com/williamgunn/SciSentiment
 
 Usage
 ==================
